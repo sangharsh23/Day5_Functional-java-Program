@@ -13,7 +13,8 @@ public class Function_Logic {
 	public int getIntValue() {
 		return input.nextInt();
 	}
-
+  
+	//1) program to calculate roots of the quadratic equation
 	public void getQuadraticRoots(double a, double b, double c) {
 		double delta = Math.pow(b, 2) - (4 * a * c);
 		double root1 = ((-1 * b) + Math.sqrt(delta)) / (2 * a);
